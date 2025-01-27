@@ -1,0 +1,38 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~50.0.14",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "expo-camera": "~14.1.2",
+    "@expo/vector-icons": "^14.0.0",
+    "expo-media-library": "~15.9.2",
+    "react-native-paper": "4.9.2",
+    "expo-image-manipulator": "~11.8.0",
+    "expo-asset": "~9.0.2",
+    "expo-sharing": "~11.10.0",
+    "expo-file-system": "~16.0.9",
+    "@tensorflow/tfjs": "*",
+    "@tensorflow/tfjs-react-native": "*",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@tensorflow/tfjs-backend-cpu": "4.13.0",
+    "@tensorflow/tfjs-backend-webgl": "4.13.0",
+    "@tensorflow/tfjs-core": "4.13.0",
+    "expo-gl": "~13.6.0",
+    "react-native-fs": "2.20.0",
+    "@tensorflow-models/coco-ssd": "*",
+    "@tensorflow/tfjs-converter": "4.10.0",
+    "expo-image-picker": "~14.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
